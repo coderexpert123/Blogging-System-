@@ -12,6 +12,22 @@
         <servlet-name>Logout</servlet-name>
         <servlet-class>com.tech.blog.servlets.Logout</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>EditServlet</servlet-name>
+        <servlet-class>com.tech.blog.servlets.EditServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ContactUs</servlet-name>
+        <servlet-class>com.tech.blog.servlets.ContactUs</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AboutsUs</servlet-name>
+        <servlet-class>com.tech.blog.servlets.AboutsUs</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AddPostServlet</servlet-name>
+        <servlet-class>com.tech.blog.servlets.AddPostServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>SignupServlet</servlet-name>
         <url-pattern>/SignupServlet</url-pattern>
@@ -23,6 +39,22 @@
     <servlet-mapping>
         <servlet-name>Logout</servlet-name>
         <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EditServlet</servlet-name>
+        <url-pattern>/EditServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ContactUs</servlet-name>
+        <url-pattern>/ContactUs</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AboutsUs</servlet-name>
+        <url-pattern>/AboutsUs</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddPostServlet</servlet-name>
+        <url-pattern>/AddPostServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

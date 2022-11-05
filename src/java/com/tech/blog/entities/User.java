@@ -9,8 +9,6 @@ package com.tech.blog.entities;
  * @author Nishant Singh
  */
 import java.sql.Timestamp;
-import java.util.*;
-
 public class User {
     
     private int id;
@@ -20,7 +18,7 @@ public class User {
     private String gender;
     private String about;
     private Timestamp dateTime;
-    private String Profile;
+    private String profile;
     
     
     //Parametrize constructor
@@ -106,12 +104,16 @@ public class User {
     }
 
     public String getProfile() {
-        return Profile;
+        return profile;
     }
 
-    public void setProfile(String Profile) {
-        this.Profile = Profile;
+    public void setProfile(String profile) {
+        this.profile = profile;
     }
+
+    
+    
+    
   
     
     
